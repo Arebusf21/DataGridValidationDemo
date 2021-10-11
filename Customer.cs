@@ -91,7 +91,7 @@ namespace DataGridValidationDemo
             if (this.LastName.Contains("Smith"))
             {
                 errors.Add("Smith is not a valid Name" + this.LastName);
-                OnErrorsChanged(this.LastName);
+                // OnErrorsChanged(this.LastName);
             }
               
             return errors;
